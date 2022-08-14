@@ -7,17 +7,19 @@
 
 import UIKit
 extension UIView {
-    func dropShadow(color: UIColor, alpha: Float){
+    func dropShadow(color: UIColor, opacity: Float){
             layer.masksToBounds = false
             layer.shadowColor = color.cgColor
-            layer.shadowOpacity = alpha
+            layer.shadowOpacity = opacity
             layer.shadowOffset = CGSize.zero
+            layer.shadowRadius = 1
     }
     @IBInspectable
     var viewCornerRadius: CGFloat{
         set{self.layer.cornerRadius = newValue;self.clipsToBounds = true}
         get{return self.viewCornerRadius}
     }
+    @IBInspectable
     var borderColor: UIColor{
         set{self.layer.borderColor = newValue.cgColor}
         get{return self.borderColor}

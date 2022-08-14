@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="TwitterCounter" customModuleProvider="target">
+            <connections>
+                <outlet property="charchtersRemainingView" destination="8UH-F6-axf" id="Svx-PX-sk9"/>
+                <outlet property="charchtersTextView" destination="1KU-M3-u8e" id="hdt-Z7-3jV"/>
+                <outlet property="charchtersTypedView" destination="RCW-ll-5Az" id="ESU-IG-dsV"/>
+                <outlet property="view" destination="kFW-eP-JaZ" id="w27-Ak-2eL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kFW-eP-JaZ">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="128" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8eE-hd-XOE">
+                    <rect key="frame" x="20" y="64" width="374" height="128"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCW-ll-5Az" customClass="CharchtersCountView" customModule="TwitterCounter" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="177" height="128"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-F6-axf" customClass="CharchtersCountView" customModule="TwitterCounter" customModuleProvider="target">
+                            <rect key="frame" x="197" y="0.0" width="177" height="128"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                </stackView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1KU-M3-u8e">
+                    <rect key="frame" x="20" y="200" width="374" height="224"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.91372549020000005" green="0.96078431369999995" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="IwY-yB-Vkt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8eE-hd-XOE" firstAttribute="leading" secondItem="IwY-yB-Vkt" secondAttribute="leading" constant="20" id="698-g9-lYt"/>
+                <constraint firstItem="1KU-M3-u8e" firstAttribute="height" secondItem="kFW-eP-JaZ" secondAttribute="height" multiplier="0.25" id="F0n-YI-r6c"/>
+                <constraint firstItem="1KU-M3-u8e" firstAttribute="leading" secondItem="8eE-hd-XOE" secondAttribute="leading" id="f8k-3H-iPW"/>
+                <constraint firstItem="1KU-M3-u8e" firstAttribute="trailing" secondItem="8eE-hd-XOE" secondAttribute="trailing" id="ix7-Go-moa"/>
+                <constraint firstItem="1KU-M3-u8e" firstAttribute="top" secondItem="8eE-hd-XOE" secondAttribute="bottom" constant="8" symbolic="YES" id="kWv-R5-XYe"/>
+                <constraint firstItem="IwY-yB-Vkt" firstAttribute="trailing" secondItem="8eE-hd-XOE" secondAttribute="trailing" constant="20" id="tH4-Mz-tSL"/>
+                <constraint firstItem="8eE-hd-XOE" firstAttribute="top" secondItem="IwY-yB-Vkt" secondAttribute="top" constant="20" id="wY8-Sd-xK3"/>
+            </constraints>
+            <point key="canvasLocation" x="-2814" y="-161"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
