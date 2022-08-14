@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D0A1D3528A80BE7007AFC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3428A80BE7007AFC19 /* AppDelegate.swift */; };
-		4D0A1D3728A80BE7007AFC19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3628A80BE7007AFC19 /* SceneDelegate.swift */; };
 		4D0A1D3928A80BE7007AFC19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3828A80BE7007AFC19 /* ViewController.swift */; };
-		4D0A1D3C28A80BE7007AFC19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3A28A80BE7007AFC19 /* Main.storyboard */; };
 		4D0A1D3E28A80BE8007AFC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3D28A80BE8007AFC19 /* Assets.xcassets */; };
 		4D0A1D4128A80BE8007AFC19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3F28A80BE8007AFC19 /* LaunchScreen.storyboard */; };
 		4D0A1D4C28A80BE8007AFC19 /* TwitterCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D4B28A80BE8007AFC19 /* TwitterCounterTests.swift */; };
@@ -19,7 +17,8 @@
 		4D0A1D6628A80D45007AFC19 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6528A80D45007AFC19 /* View.swift */; };
 		4D0A1D6828A810EB007AFC19 /* CharchtersCountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6728A810EB007AFC19 /* CharchtersCountView.xib */; };
 		4D0A1D6A28A817E0007AFC19 /* CharchtersCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6928A817E0007AFC19 /* CharchtersCountView.swift */; };
-		4D0A1D6D28A8184D007AFC19 /* CharchtersCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6C28A8184D007AFC19 /* CharchtersCountViewModel.swift */; };
+		4D0A1D6F28A84CF2007AFC19 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6E28A84CF2007AFC19 /* ViewController.xib */; };
+		4D0A1D7128A86BA4007AFC19 /* Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D7028A86BA4007AFC19 /* Reuseable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +41,7 @@
 /* Begin PBXFileReference section */
 		4D0A1D3128A80BE7007AFC19 /* TwitterCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0A1D3428A80BE7007AFC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D0A1D3628A80BE7007AFC19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4D0A1D3828A80BE7007AFC19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D0A1D3B28A80BE7007AFC19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0A1D3D28A80BE8007AFC19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0A1D4028A80BE8007AFC19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0A1D4228A80BE8007AFC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +53,8 @@
 		4D0A1D6528A80D45007AFC19 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		4D0A1D6728A810EB007AFC19 /* CharchtersCountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharchtersCountView.xib; sourceTree = "<group>"; };
 		4D0A1D6928A817E0007AFC19 /* CharchtersCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharchtersCountView.swift; sourceTree = "<group>"; };
-		4D0A1D6C28A8184D007AFC19 /* CharchtersCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharchtersCountViewModel.swift; sourceTree = "<group>"; };
+		4D0A1D6E28A84CF2007AFC19 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		4D0A1D7028A86BA4007AFC19 /* Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reuseable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +105,10 @@
 		4D0A1D3328A80BE7007AFC19 /* TwitterCounter */ = {
 			isa = PBXGroup;
 			children = (
+				4D0A1D7228A874C0007AFC19 /* View Controllers */,
 				4D0A1D6B28A817E4007AFC19 /* Custom Views */,
 				4D0A1D6428A80C90007AFC19 /* Extensions */,
 				4D0A1D3428A80BE7007AFC19 /* AppDelegate.swift */,
-				4D0A1D3628A80BE7007AFC19 /* SceneDelegate.swift */,
-				4D0A1D3828A80BE7007AFC19 /* ViewController.swift */,
-				4D0A1D3A28A80BE7007AFC19 /* Main.storyboard */,
 				4D0A1D3D28A80BE8007AFC19 /* Assets.xcassets */,
 				4D0A1D3F28A80BE8007AFC19 /* LaunchScreen.storyboard */,
 				4D0A1D4228A80BE8007AFC19 /* Info.plist */,
@@ -150,9 +146,18 @@
 			children = (
 				4D0A1D6728A810EB007AFC19 /* CharchtersCountView.xib */,
 				4D0A1D6928A817E0007AFC19 /* CharchtersCountView.swift */,
-				4D0A1D6C28A8184D007AFC19 /* CharchtersCountViewModel.swift */,
+				4D0A1D7028A86BA4007AFC19 /* Reuseable.swift */,
 			);
 			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		4D0A1D7228A874C0007AFC19 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A1D3828A80BE7007AFC19 /* ViewController.swift */,
+				4D0A1D6E28A84CF2007AFC19 /* ViewController.xib */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0A1D6F28A84CF2007AFC19 /* ViewController.xib in Resources */,
 				4D0A1D4128A80BE8007AFC19 /* LaunchScreen.storyboard in Resources */,
 				4D0A1D3E28A80BE8007AFC19 /* Assets.xcassets in Resources */,
-				4D0A1D3C28A80BE7007AFC19 /* Main.storyboard in Resources */,
 				4D0A1D6828A810EB007AFC19 /* CharchtersCountView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,10 +294,9 @@
 			files = (
 				4D0A1D6628A80D45007AFC19 /* View.swift in Sources */,
 				4D0A1D3928A80BE7007AFC19 /* ViewController.swift in Sources */,
+				4D0A1D7128A86BA4007AFC19 /* Reuseable.swift in Sources */,
 				4D0A1D6A28A817E0007AFC19 /* CharchtersCountView.swift in Sources */,
-				4D0A1D6D28A8184D007AFC19 /* CharchtersCountViewModel.swift in Sources */,
 				4D0A1D3528A80BE7007AFC19 /* AppDelegate.swift in Sources */,
-				4D0A1D3728A80BE7007AFC19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4D0A1D3A28A80BE7007AFC19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D0A1D3B28A80BE7007AFC19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D0A1D3F28A80BE8007AFC19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -473,7 +469,7 @@
 				INFOPLIST_FILE = TwitterCounter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,7 +496,7 @@
 				INFOPLIST_FILE = TwitterCounter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
