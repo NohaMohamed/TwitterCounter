@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CharchtersCountView
 
 class ViewController: UIViewController {
     //MARK: Outlets
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
     }
     private func setupCharchterRemainingView(){
         charchtersRemainingView.viewType = .remaining
-        charchtersRemainingView.setText(charchterLimit)
+        charchtersRemainingView.setCharchtersCounts(charchterLimit)
     }
     private func setupTextView(){
         charchtersTextView.delegate = self
@@ -37,8 +38,8 @@ class ViewController: UIViewController {
 }
 extension ViewController: UITextViewDelegate{
     func textViewDidChange(_ textView: UITextView) {
-        charchtersTypedView.setText(textView.text.count)
-        charchtersRemainingView.setText(charchterLimit - textView.text.count)
+        charchtersTypedView.setCharchtersCounts(textView.text.count)
+        charchtersRemainingView.setCharchtersCounts(charchterLimit - textView.text.count)
     }
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
         return self.textLimit(existingText: textView.text,

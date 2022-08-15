@@ -15,10 +15,8 @@
 		4D0A1D5628A80BE9007AFC19 /* TwitterCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D5528A80BE9007AFC19 /* TwitterCounterUITests.swift */; };
 		4D0A1D5828A80BE9007AFC19 /* TwitterCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D5728A80BE9007AFC19 /* TwitterCounterUITestsLaunchTests.swift */; };
 		4D0A1D6628A80D45007AFC19 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6528A80D45007AFC19 /* View.swift */; };
-		4D0A1D6828A810EB007AFC19 /* CharchtersCountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6728A810EB007AFC19 /* CharchtersCountView.xib */; };
-		4D0A1D6A28A817E0007AFC19 /* CharchtersCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6928A817E0007AFC19 /* CharchtersCountView.swift */; };
 		4D0A1D6F28A84CF2007AFC19 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6E28A84CF2007AFC19 /* ViewController.xib */; };
-		4D0A1D7128A86BA4007AFC19 /* Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D7028A86BA4007AFC19 /* Reuseable.swift */; };
+		4DEF801E28A9C07600D1E530 /* CharchtersCountView in Frameworks */ = {isa = PBXBuildFile; productRef = 4DEF801D28A9C07600D1E530 /* CharchtersCountView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +49,7 @@
 		4D0A1D5528A80BE9007AFC19 /* TwitterCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCounterUITests.swift; sourceTree = "<group>"; };
 		4D0A1D5728A80BE9007AFC19 /* TwitterCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D0A1D6528A80D45007AFC19 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		4D0A1D6728A810EB007AFC19 /* CharchtersCountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharchtersCountView.xib; sourceTree = "<group>"; };
-		4D0A1D6928A817E0007AFC19 /* CharchtersCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharchtersCountView.swift; sourceTree = "<group>"; };
 		4D0A1D6E28A84CF2007AFC19 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		4D0A1D7028A86BA4007AFC19 /* Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reuseable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEF801E28A9C07600D1E530 /* CharchtersCountView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +140,6 @@
 		4D0A1D6B28A817E4007AFC19 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				4D0A1D6728A810EB007AFC19 /* CharchtersCountView.xib */,
-				4D0A1D6928A817E0007AFC19 /* CharchtersCountView.swift */,
-				4D0A1D7028A86BA4007AFC19 /* Reuseable.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -176,6 +169,9 @@
 			dependencies = (
 			);
 			name = TwitterCounter;
+			packageProductDependencies = (
+				4DEF801D28A9C07600D1E530 /* CharchtersCountView */,
+			);
 			productName = TwitterCounter;
 			productReference = 4D0A1D3128A80BE7007AFC19 /* TwitterCounter.app */;
 			productType = "com.apple.product-type.application";
@@ -248,6 +244,9 @@
 				Base,
 			);
 			mainGroup = 4D0A1D2828A80BE7007AFC19;
+			packageReferences = (
+				4DEF801C28A9C07600D1E530 /* XCRemoteSwiftPackageReference "CharchtersCountView" */,
+			);
 			productRefGroup = 4D0A1D3228A80BE7007AFC19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,7 +266,6 @@
 				4D0A1D6F28A84CF2007AFC19 /* ViewController.xib in Resources */,
 				4D0A1D4128A80BE8007AFC19 /* LaunchScreen.storyboard in Resources */,
 				4D0A1D3E28A80BE8007AFC19 /* Assets.xcassets in Resources */,
-				4D0A1D6828A810EB007AFC19 /* CharchtersCountView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +292,6 @@
 			files = (
 				4D0A1D6628A80D45007AFC19 /* View.swift in Sources */,
 				4D0A1D3928A80BE7007AFC19 /* ViewController.swift in Sources */,
-				4D0A1D7128A86BA4007AFC19 /* Reuseable.swift in Sources */,
-				4D0A1D6A28A817E0007AFC19 /* CharchtersCountView.swift in Sources */,
 				4D0A1D3528A80BE7007AFC19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +620,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DEF801C28A9C07600D1E530 /* XCRemoteSwiftPackageReference "CharchtersCountView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NohaMohamed/CharchtersCountView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DEF801D28A9C07600D1E530 /* CharchtersCountView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DEF801C28A9C07600D1E530 /* XCRemoteSwiftPackageReference "CharchtersCountView" */;
+			productName = CharchtersCountView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D0A1D2928A80BE7007AFC19 /* Project object */;
 }

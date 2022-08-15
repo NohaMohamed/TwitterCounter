@@ -24,11 +24,11 @@
                 <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="128" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8eE-hd-XOE">
                     <rect key="frame" x="20" y="64" width="374" height="128"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCW-ll-5Az" customClass="CharchtersCountView" customModule="TwitterCounter" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCW-ll-5Az" customClass="CharchtersCountView" customModule="CharchtersCountView">
                             <rect key="frame" x="0.0" y="0.0" width="177" height="128"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-F6-axf" customClass="CharchtersCountView" customModule="TwitterCounter" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-F6-axf" customClass="CharchtersCountView" customModule="CharchtersCountView">
                             <rect key="frame" x="197" y="0.0" width="177" height="128"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
