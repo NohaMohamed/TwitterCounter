@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D06902D28ADB4FA00591CAC /* CharchtersCountView in Frameworks */ = {isa = PBXBuildFile; productRef = 4D06902C28ADB4FA00591CAC /* CharchtersCountView */; };
+		4D06903028ADB50C00591CAC /* TwitterTextView in Frameworks */ = {isa = PBXBuildFile; productRef = 4D06902F28ADB50C00591CAC /* TwitterTextView */; };
+		4D06903528ADB5F900591CAC /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06903128ADB5F800591CAC /* View+Extension.swift */; };
+		4D06903628ADB5F900591CAC /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06903228ADB5F900591CAC /* Localization.swift */; };
+		4D06903728ADB5F900591CAC /* UILabel+Extesnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06903328ADB5F900591CAC /* UILabel+Extesnion.swift */; };
+		4D06903828ADB5F900591CAC /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06903428ADB5F900591CAC /* UIButton+Extension.swift */; };
 		4D0A1D3528A80BE7007AFC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3428A80BE7007AFC19 /* AppDelegate.swift */; };
 		4D0A1D3928A80BE7007AFC19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3828A80BE7007AFC19 /* ViewController.swift */; };
 		4D0A1D3E28A80BE8007AFC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D3D28A80BE8007AFC19 /* Assets.xcassets */; };
@@ -14,9 +20,7 @@
 		4D0A1D4C28A80BE8007AFC19 /* TwitterCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D4B28A80BE8007AFC19 /* TwitterCounterTests.swift */; };
 		4D0A1D5628A80BE9007AFC19 /* TwitterCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D5528A80BE9007AFC19 /* TwitterCounterUITests.swift */; };
 		4D0A1D5828A80BE9007AFC19 /* TwitterCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D5728A80BE9007AFC19 /* TwitterCounterUITestsLaunchTests.swift */; };
-		4D0A1D6628A80D45007AFC19 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6528A80D45007AFC19 /* View.swift */; };
 		4D0A1D6F28A84CF2007AFC19 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A1D6E28A84CF2007AFC19 /* ViewController.xib */; };
-		4DEF801E28A9C07600D1E530 /* CharchtersCountView in Frameworks */ = {isa = PBXBuildFile; productRef = 4DEF801D28A9C07600D1E530 /* CharchtersCountView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D06903128ADB5F800591CAC /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		4D06903228ADB5F900591CAC /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		4D06903328ADB5F900591CAC /* UILabel+Extesnion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extesnion.swift"; sourceTree = "<group>"; };
+		4D06903428ADB5F900591CAC /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		4D0A1D3128A80BE7007AFC19 /* TwitterCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0A1D3428A80BE7007AFC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D0A1D3828A80BE7007AFC19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +56,6 @@
 		4D0A1D5128A80BE9007AFC19 /* TwitterCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0A1D5528A80BE9007AFC19 /* TwitterCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCounterUITests.swift; sourceTree = "<group>"; };
 		4D0A1D5728A80BE9007AFC19 /* TwitterCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4D0A1D6528A80D45007AFC19 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		4D0A1D6E28A84CF2007AFC19 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEF801E28A9C07600D1E530 /* CharchtersCountView in Frameworks */,
+				4D06903028ADB50C00591CAC /* TwitterTextView in Frameworks */,
+				4D06902D28ADB4FA00591CAC /* CharchtersCountView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D06903928ADB61500591CAC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				4D06903228ADB5F900591CAC /* Localization.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		4D0A1D2828A80BE7007AFC19 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +117,8 @@
 		4D0A1D3328A80BE7007AFC19 /* TwitterCounter */ = {
 			isa = PBXGroup;
 			children = (
+				4D06903928ADB61500591CAC /* Localization */,
 				4D0A1D7228A874C0007AFC19 /* View Controllers */,
-				4D0A1D6B28A817E4007AFC19 /* Custom Views */,
 				4D0A1D6428A80C90007AFC19 /* Extensions */,
 				4D0A1D3428A80BE7007AFC19 /* AppDelegate.swift */,
 				4D0A1D3D28A80BE8007AFC19 /* Assets.xcassets */,
@@ -132,16 +148,11 @@
 		4D0A1D6428A80C90007AFC19 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4D0A1D6528A80D45007AFC19 /* View.swift */,
+				4D06903428ADB5F900591CAC /* UIButton+Extension.swift */,
+				4D06903328ADB5F900591CAC /* UILabel+Extesnion.swift */,
+				4D06903128ADB5F800591CAC /* View+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		4D0A1D6B28A817E4007AFC19 /* Custom Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 		4D0A1D7228A874C0007AFC19 /* View Controllers */ = {
@@ -170,7 +181,8 @@
 			);
 			name = TwitterCounter;
 			packageProductDependencies = (
-				4DEF801D28A9C07600D1E530 /* CharchtersCountView */,
+				4D06902C28ADB4FA00591CAC /* CharchtersCountView */,
+				4D06902F28ADB50C00591CAC /* TwitterTextView */,
 			);
 			productName = TwitterCounter;
 			productReference = 4D0A1D3128A80BE7007AFC19 /* TwitterCounter.app */;
@@ -245,7 +257,8 @@
 			);
 			mainGroup = 4D0A1D2828A80BE7007AFC19;
 			packageReferences = (
-				4DEF801C28A9C07600D1E530 /* XCRemoteSwiftPackageReference "CharchtersCountView" */,
+				4D06902B28ADB4FA00591CAC /* XCRemoteSwiftPackageReference "CharchtersCountView" */,
+				4D06902E28ADB50C00591CAC /* XCRemoteSwiftPackageReference "TwitterTextView" */,
 			);
 			productRefGroup = 4D0A1D3228A80BE7007AFC19 /* Products */;
 			projectDirPath = "";
@@ -290,9 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0A1D6628A80D45007AFC19 /* View.swift in Sources */,
+				4D06903628ADB5F900591CAC /* Localization.swift in Sources */,
+				4D06903728ADB5F900591CAC /* UILabel+Extesnion.swift in Sources */,
 				4D0A1D3928A80BE7007AFC19 /* ViewController.swift in Sources */,
+				4D06903528ADB5F900591CAC /* View+Extension.swift in Sources */,
 				4D0A1D3528A80BE7007AFC19 /* AppDelegate.swift in Sources */,
+				4D06903828ADB5F900591CAC /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,21 +638,34 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4DEF801C28A9C07600D1E530 /* XCRemoteSwiftPackageReference "CharchtersCountView" */ = {
+		4D06902B28ADB4FA00591CAC /* XCRemoteSwiftPackageReference "CharchtersCountView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/NohaMohamed/CharchtersCountView.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4D06902E28ADB50C00591CAC /* XCRemoteSwiftPackageReference "TwitterTextView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NohaMohamed/TwitterTextView.git";
+			requirement = {
+				branch = TwitterTextView;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4DEF801D28A9C07600D1E530 /* CharchtersCountView */ = {
+		4D06902C28ADB4FA00591CAC /* CharchtersCountView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4DEF801C28A9C07600D1E530 /* XCRemoteSwiftPackageReference "CharchtersCountView" */;
+			package = 4D06902B28ADB4FA00591CAC /* XCRemoteSwiftPackageReference "CharchtersCountView" */;
 			productName = CharchtersCountView;
+		};
+		4D06902F28ADB50C00591CAC /* TwitterTextView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D06902E28ADB50C00591CAC /* XCRemoteSwiftPackageReference "TwitterTextView" */;
+			productName = TwitterTextView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

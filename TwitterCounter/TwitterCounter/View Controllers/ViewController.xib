@@ -52,12 +52,38 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </textView>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOV-XL-kcJ">
+                    <rect key="frame" x="20" y="432" width="134" height="35"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctO-Om-7Y1">
+                            <rect key="frame" x="0.0" y="0.0" width="67" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="B4m-MW-IOf"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnd-nv-efn">
+                            <rect key="frame" x="67" y="0.0" width="67" height="35"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                        </button>
+                    </subviews>
+                </stackView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="IwY-yB-Vkt"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="8eE-hd-XOE" firstAttribute="leading" secondItem="IwY-yB-Vkt" secondAttribute="leading" constant="20" id="698-g9-lYt"/>
+                <constraint firstItem="dOV-XL-kcJ" firstAttribute="top" secondItem="1KU-M3-u8e" secondAttribute="bottom" constant="8" symbolic="YES" id="8vk-1v-6BE"/>
                 <constraint firstItem="1KU-M3-u8e" firstAttribute="height" secondItem="kFW-eP-JaZ" secondAttribute="height" multiplier="0.25" id="F0n-YI-r6c"/>
+                <constraint firstItem="dOV-XL-kcJ" firstAttribute="leading" secondItem="1KU-M3-u8e" secondAttribute="leading" id="Lo9-hL-KDh"/>
                 <constraint firstItem="1KU-M3-u8e" firstAttribute="leading" secondItem="8eE-hd-XOE" secondAttribute="leading" id="f8k-3H-iPW"/>
                 <constraint firstItem="1KU-M3-u8e" firstAttribute="trailing" secondItem="8eE-hd-XOE" secondAttribute="trailing" id="ix7-Go-moa"/>
                 <constraint firstItem="1KU-M3-u8e" firstAttribute="top" secondItem="8eE-hd-XOE" secondAttribute="bottom" constant="8" symbolic="YES" id="kWv-R5-XYe"/>

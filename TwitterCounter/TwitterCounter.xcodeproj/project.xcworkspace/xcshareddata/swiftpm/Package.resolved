@@ -5,8 +5,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/NohaMohamed/CharchtersCountView.git",
       "state" : {
-        "revision" : "b95ddd10405f0ebaadc0ad6cbc3ddf7187b75263",
-        "version" : "0.0.4"
+        "revision" : "66cfa75f198080d45c224ef0e805f3649df03981",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "twittertextview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NohaMohamed/TwitterTextView.git",
+      "state" : {
+        "branch" : "TwitterTextView",
+        "revision" : "3c9662b4bed0fe9b29f902e9f0f0a690a197791f"
       }
     }
   ],
