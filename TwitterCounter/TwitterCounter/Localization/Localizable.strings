@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  LifesumChallenge
+
+  Created by Noha Mohamed on 10/07/2022.
+  
+*/
+"copyText" = "Copy Text";
+"clearText" = "Clear Text";
+"postTweet" = "Post Tweet";
+"remainingCharacters" = "Remaining Characters";
+"typedCharacters" = "Typed Characters";

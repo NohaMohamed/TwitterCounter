@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func startFlow() {
-        let myViewController = ViewController(nibName: "ViewController", bundle: nil)
+        let myViewController = TwitterViewController(nibName: "TwitterViewController", bundle: nil)
 
         let navigationController = UINavigationController(rootViewController: myViewController)
         window?.rootViewController = navigationController
