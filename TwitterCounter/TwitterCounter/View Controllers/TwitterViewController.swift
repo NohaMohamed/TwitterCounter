@@ -6,14 +6,14 @@
 //
 
 import UIKit
-import CharchtersCountView
+import CharactersCountView
 import TwitterTextView
 
 class TwitterViewController: UIViewController {
     //MARK: Outlets
     @IBOutlet weak var charactersTextView: TwitterTextView!
-    @IBOutlet weak var charactersTypedView: CharchtersCountView!
-    @IBOutlet weak var charactersRemainingView: CharchtersCountView!
+    @IBOutlet weak var charactersTypedView: CharactersCountView!
+    @IBOutlet weak var charactersRemainingView: CharactersCountView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class TwitterViewController: UIViewController {
     }
     private func setupCharactersRemainingView(){
         charactersRemainingView.viewType = .remaining
-        charactersRemainingView.setCharchtersCount(charactersTextView.charchtersLimit)
+        charactersRemainingView.setCharactersCount(charactersTextView.charchtersLimit)
         charactersRemainingView.setTitle(Localization.string(for: "remainingCharacters"))
     }
     private func setupCharactersTypedView(){
@@ -45,7 +45,7 @@ class TwitterViewController: UIViewController {
 }
 extension TwitterViewController: TwitterTextViewDidChange {
     func didChange(value: String) {
-        charactersTypedView.setCharchtersCount(value.count)
-        charactersRemainingView.setCharchtersCount(charactersTextView.charchtersLimit - value.count)
+        charactersTypedView.setCharactersCount(value.count)
+        charactersRemainingView.setCharactersCount(charactersTextView.charchtersLimit - value.count)
     }
 }

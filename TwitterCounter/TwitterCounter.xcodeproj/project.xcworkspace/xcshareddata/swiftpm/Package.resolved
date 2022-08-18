@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "charchterscountview",
+      "identity" : "characterscountview",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/NohaMohamed/CharchtersCountView.git",
+      "location" : "https://github.com/NohaMohamed/CharactersCountView.git",
       "state" : {
-        "revision" : "66cfa75f198080d45c224ef0e805f3649df03981",
-        "version" : "1.2.0"
+        "branch" : "main",
+        "revision" : "74afc9ea63ed0c692c3f35c5219cd657d2439f18"
       }
     },
     {

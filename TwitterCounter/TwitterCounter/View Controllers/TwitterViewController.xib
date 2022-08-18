@@ -10,9 +10,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TwitterViewController" customModule="TwitterCounter" customModuleProvider="target">
             <connections>
-                <outlet property="charactersRemainingView" destination="8UH-F6-axf" id="ykA-pt-F85"/>
+                <outlet property="charactersRemainingView" destination="8UH-F6-axf" id="BLs-Xm-eWe"/>
                 <outlet property="charactersTextView" destination="2al-gm-B7i" id="dP2-tr-EgA"/>
-                <outlet property="charactersTypedView" destination="RCW-ll-5Az" id="iZk-Xb-nmw"/>
+                <outlet property="charactersTypedView" destination="RCW-ll-5Az" id="mhc-6L-a2K"/>
                 <outlet property="view" destination="kFW-eP-JaZ" id="w27-Ak-2eL"/>
             </connections>
         </placeholder>
@@ -24,11 +24,11 @@
                 <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="128" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8eE-hd-XOE">
                     <rect key="frame" x="20" y="64" width="374" height="128"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCW-ll-5Az" customClass="CharchtersCountView" customModule="CharchtersCountView">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCW-ll-5Az" customClass="CharactersCountView" customModule="CharactersCountView">
                             <rect key="frame" x="0.0" y="0.0" width="177" height="128"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-F6-axf" customClass="CharchtersCountView" customModule="CharchtersCountView">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-F6-axf" customClass="CharactersCountView" customModule="CharactersCountView">
                             <rect key="frame" x="197" y="0.0" width="177" height="128"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
@@ -42,7 +42,7 @@
                             <real key="value" value="10"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="number" keyPath="charchtersLimit">
-                            <integer key="value" value="10"/>
+                            <integer key="value" value="280"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                             <real key="value" value="0.0"/>
